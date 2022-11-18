@@ -4,7 +4,7 @@ function showMenu() {
 }
 
 function closeMenu() {
-  const menuBox = document.getElementById('menu-box');
+  const menuBox = document.getElementById('menubox');
   menuBox.style.display = 'none';
 }
 
@@ -98,7 +98,7 @@ function createWorkPopup(project) {
         <ul class="popuptags" id="popupTags">
         </ul>
         <div class="popup-content">
-         <!-- <img src="${project.featuredImage}" alt="featured image" id="popup-img"> -->
+         <!-- <img src="${projct.featuredImage}" alt="featured image" id="popup-img"> -->
           <div class="popup-img"></div>
           <div class="popup-text">
             <p>${project.description}</p>
